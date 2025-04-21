@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* grey */
+}
+
+header {
+    background-color: #964B00; /* dry red */
+    color: #FFFFFF; /* white */
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+#content {
+    background-color: #FFFFFF; /* white */
+    padding: 1em;
+    border: 1px solid #CCCCCC; /* grey */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#change-text-btn, #change-style-btn, #add-remove-element-btn {
+    background-color: #FFD700; /* gold */
+    color: #000000; /* black */
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#change-text-btn:hover, #change-style-btn:hover, #add-remove-element-btn:hover {
+    background-color: #FFE0B2; /* light gold */
+}
+
+
